@@ -53,7 +53,7 @@ public class setExample
                     per=sc.nextDouble();
                     s=new Student(rn,sn,per);
                     studentSet.add(s);
-                    break;.
+                    break;
 
                 case 2:
                     System.out.print("Enter roll no to remove element");
