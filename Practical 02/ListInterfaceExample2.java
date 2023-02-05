@@ -1,8 +1,8 @@
 /* Write a Java program to create List containing list of items and use ListIterator interface to print items present in the list. Also print the list in reverse/backward direction. */
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
+//import java.util.Collections;
+//import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
