@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Projects\MCA AJL\Practical 06\.metadata\.plugins\org.eclipse.jdt.core
+1228493954.index
+1865797976.index
+3329289800.index
+679382884.index
+3492807992.index

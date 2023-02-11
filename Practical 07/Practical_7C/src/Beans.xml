@@ -4,7 +4,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="emp" class="com.hiraymca.Employee" >
-<constructor-arg index="0" value="sukhiram"/>
+<constructor-arg index="0" value="Janhvi Mahtre"/>
 <constructor-arg index="1" value="65"/>
 <constructor-arg index="2" value="15000"/>
 </bean>

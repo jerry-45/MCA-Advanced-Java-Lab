@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.springframework.org/schema/beans
-http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id="employee" class="com.hiraymca.Employee">
-<property name="ename" value="AAA"></property>
-<property name="eage" value="24"> </property>
-<property name="esal" value="75000"></property>
-</bean>
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="com.hiraymca.Employee">
+		<property name="ename" value="Ankit Pandey"></property>
+		<property name="eage" value="24"> </property>
+		<property name="esal" value="75000"></property>
+	</bean>
 </beans>

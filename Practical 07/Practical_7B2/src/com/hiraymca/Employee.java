@@ -13,7 +13,7 @@ public class Employee {
 	}
 	
 	public Employee() {
-		this.ename = "XYZ";
+		this.ename = "Ashish Mehra";
 		this.eage = 22;
 		this.esal = 65000;
 	}
