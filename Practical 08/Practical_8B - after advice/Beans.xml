@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xmlns:c="http://www.springframework.org/schema/c"
+xmlns:lang="http://www.springframework.org/schema/lang"
+xmlns:util="http://www.springframework.org/schema/util"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/lang
+http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+<aop:config>
+<aop:aspect id="log" ref="logging">
+<aop:pointcut expression="execution(*
+com.hiraymca.*.*(..))" id="myid"/>
+<aop:after method="afterAdvice" pointcut-ref="myid" />
+</aop:aspect>
+</aop:config>
+<bean id="student" class="com.hiraymca.Student">
+<property name="name" value="Sukhiram"></property>
+<property name="age" value="35"></property>
+</bean>
+<bean id="logging" class="com.hiraymca.Logging"></bean>
+</beans>
